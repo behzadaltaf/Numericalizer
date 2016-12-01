@@ -6,7 +6,7 @@ This mandates that non numeric data should be preprocessed and converted into nu
 
 This tool creates a file of numerical [feature vectors](https://en.wikipedia.org/wiki/Feature_vector) with an accompanying [codebook](https://en.wikipedia.org/wiki/Codebook) for data that is provided in non-numeric format. 
 
-This tool produces a [`categorical`](https://en.wikipedia.org/wiki/Categorical_variable) list from the different values. 
+This tool produces a [categorical](https://en.wikipedia.org/wiki/Categorical_variable) list from the different values. 
 
 It also has the ability to skip columns (that are marked `continuous` or are already `categorical`).
 
