@@ -17,24 +17,24 @@ import java.util.Map;
  * Created by Behzad Altaf
  */
 
-public class CatogericalConverter implements Converter {
+public class CategoricalConverter implements Converter {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CatogericalConverter.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CategoricalConverter.class);
 
     private Map<Integer, Map<String, Integer>> columnsCategoricalCodes;
 
     private Map<Integer, Integer> maximumCodeOfColumn;
 
-    private static CatogericalConverter codeConverter;
+    private static CategoricalConverter codeConverter;
 
-    private CatogericalConverter() {
+    private CategoricalConverter() {
         columnsCategoricalCodes = new HashMap<>();
         maximumCodeOfColumn = new HashMap<>();
     }
 
-    public static CatogericalConverter getInstance() {
+    public static CategoricalConverter getInstance() {
         if (codeConverter == null) {
-            codeConverter = new CatogericalConverter();
+            codeConverter = new CategoricalConverter();
         }
         return codeConverter;
     }

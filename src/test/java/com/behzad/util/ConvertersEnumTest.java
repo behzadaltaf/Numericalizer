@@ -6,7 +6,7 @@ import static org.junit.Assert.assertSame;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.behzad.converters.impl.CatogericalConverter;
+import com.behzad.converters.impl.CategoricalConverter;
 import com.behzad.converters.impl.DateConverter;
 import com.behzad.converters.impl.HourConverter;
 
@@ -16,7 +16,7 @@ import com.behzad.converters.impl.HourConverter;
 
 public class ConvertersEnumTest {
 
-	private CatogericalConverter catogericalConverter;
+	private CategoricalConverter categoricalConverter;
 
 	private DateConverter dateConverter;
 
@@ -24,14 +24,14 @@ public class ConvertersEnumTest {
 
 	@Before
 	public void setUp() throws Exception {
-		catogericalConverter = CatogericalConverter.getInstance();
+		categoricalConverter = CategoricalConverter.getInstance();
 		dateConverter = DateConverter.getInstance();
 		hourConverter = HourConverter.getInstance();
 	}
 
 	@Test
 	public void getConverterShouldReturnTheSameObjectBasedOnSuppliedString() {
-		assertSame(catogericalConverter, ConvertersEnum.getConverter("C"));
+		assertSame(categoricalConverter, ConvertersEnum.getConverter("C"));
 		assertSame(dateConverter, ConvertersEnum.getConverter("D"));
 		assertSame(hourConverter, ConvertersEnum.getConverter("H"));
 	}

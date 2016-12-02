@@ -2,7 +2,7 @@ package com.behzad.formatter;
 
 import com.behzad.NVConverter;
 import com.behzad.constants.NVConstants;
-import com.behzad.converters.impl.CatogericalConverter;
+import com.behzad.converters.impl.CategoricalConverter;
 import com.behzad.util.ConvertersEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -51,7 +51,7 @@ public class CSVFormatter {
                         .append(NVConstants.NEWLINE).toString());
                 bufferedWriter.flush();
             }
-            CatogericalConverter.generateCodeBook(splitHeader);
+            CategoricalConverter.generateCodeBook(splitHeader);
         }
     }
 

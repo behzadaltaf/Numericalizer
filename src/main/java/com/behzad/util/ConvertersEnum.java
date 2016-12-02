@@ -1,7 +1,7 @@
 package com.behzad.util;
 
 import com.behzad.converters.Converter;
-import com.behzad.converters.impl.CatogericalConverter;
+import com.behzad.converters.impl.CategoricalConverter;
 import com.behzad.converters.impl.DateConverter;
 import com.behzad.converters.impl.HourConverter;
 
@@ -27,7 +27,7 @@ public class ConvertersEnum {
         C {
             @Override
             public Converter getConverter() {
-                return CatogericalConverter.getInstance();
+                return CategoricalConverter.getInstance();
             }
         };
 
