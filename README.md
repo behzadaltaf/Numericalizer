@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/behzadaltaf/Numericalizer.svg?branch=master)](https://travis-ci.org/behzadaltaf/Numericalizer)
+[![Build Status](https://travis-ci.org/behzadaltaf/Numericalizer.svg?branch=master)](https://travis-ci.org/behzadaltaf/Numericalizer) [![Dependency Status](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547)
 
 # Numericalizer Tool
 
