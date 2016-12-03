@@ -29,11 +29,11 @@ public class NVConverterTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		inputFileName = "data\\unit-test.csv";
-		outputFileName = "data\\unit-test_OUTPUT.csv";
-		codeBookName = "data\\unit-test_CODEBOOK.txt";
-		outputTestFile =new File("data\\unit-test_OUTPUT_test.csv");
-		codeTestBook = new File("data\\unit-test_CODEBOOK_test.txt");
+		inputFileName = "data/unit-test.csv";
+		outputFileName = "data/unit-test_OUTPUT.csv";
+		codeBookName = "data/unit-test_CODEBOOK.txt";
+		outputTestFile =new File("data/unit-test_OUTPUT_test.csv");
+		codeTestBook = new File("data/unit-test_CODEBOOK_test.txt");
 
 	}
 
