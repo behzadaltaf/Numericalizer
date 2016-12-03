@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/behzadaltaf/Numericalizer.svg?branch=master)](https://travis-ci.org/behzadaltaf/Numericalizer) [![Dependency Status](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547)
+[![Build Status](https://travis-ci.org/behzadaltaf/Numericalizer.svg?branch=master)](https://travis-ci.org/behzadaltaf/Numericalizer) [![Dependency Status](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58429ba36f3ee40a6d50e547) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Numericalizer Tool
 
