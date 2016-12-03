@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/behzadaltaf/Numericalizer.svg?branch=master)](https://travis-ci.org/behzadaltaf/Numericalizer)
+
 # Numericalizer Tool
 
 There are many [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) libraries that take data only in numeric format. 
